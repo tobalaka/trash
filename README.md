@@ -1,5 +1,9 @@
 # TRASH
 
+![TRASH RPG cover art](docs/cover.jpg)
+
+**Play it on Roblox:** https://www.roblox.com/games/139363873869909/TRASH
+
 An original Roblox action RPG, built in Luau, about a year in development. It is inspired by an anime I love, with an original world, factions, and systems. I submitted it to the Congressional App Challenge.
 
 Showcase video: https://youtu.be/wf2Kc4tQBTo
@@ -33,7 +37,7 @@ I am the creator and director: I chose the premise, audience, environmental conn
 
 ## Source code
 
-The Luau source for the whole game is in this folder: 221 scripts (server, client and shared modules) exported from the place file, organized the way Roblox Studio shows them.
+The Luau source for the whole game is in this repository: 221 scripts (server, client and shared modules) exported from the place file, organized the way Roblox Studio shows them.
 
 ```
 src/
@@ -49,7 +53,7 @@ default.project.json     Rojo project file for the services above
 
 To read the code, just open the `src` folders. To sync it into Studio, install [Rojo](https://rojo.space) and run `rojo serve` here. The world itself (terrain, models, meshes, audio and animation assets) is not in this repository. It lives in the Roblox place, so the code alone will not recreate the full game.
 
-The scripts were exported unchanged from the version 566 place. As described above, AI tools wrote much of this code. I directed the design, tested it and fixed problems.
+The scripts were exported unchanged from the version 566 place (the cover art above is the game's icon, not an in-game screenshot). As described above, AI tools wrote much of this code. I directed the design, tested it and fixed problems.
 
 `combat-prototype` is an isolated rewrite of the combat rules (attacks, parry, posture, dodge, launch) that I built and tested in a separate copy of the place. It has not been published to the live game.
 
