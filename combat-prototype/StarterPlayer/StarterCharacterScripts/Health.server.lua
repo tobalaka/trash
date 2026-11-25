@@ -1,0 +1,1 @@
+-- Disable passive health regeneration in the combat test copy.
